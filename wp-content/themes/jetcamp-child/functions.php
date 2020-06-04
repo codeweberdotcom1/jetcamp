@@ -175,8 +175,8 @@ function change_attachement_image_attributes( $attr, $attachment ) {
 
 	/// Get title and alt
 	$title = get_post_field( 'post_title', $parent );
-	$attr['alt']   = $title . ' - Винные Желания';
-	$attr['title'] = $title . ' - Винные Желания';
+	$attr['alt']   = $title . ' - Jetcamp';
+	$attr['title'] = $title . ' - Jetcamp';
 	return $attr;
 }
 add_filter( 'wp_get_attachment_image_attributes', 'change_attachement_image_attributes', 20, 2 );
