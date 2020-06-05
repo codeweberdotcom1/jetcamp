@@ -109,3 +109,9 @@ a.share-whatsapp {
     display: inline-block!important;
     visibility: visible!important;
 }
+#footer .widgettitle, #footer .widget-title {
+    font-size: 20px;
+}
+#footer h3 {
+    color: #ff671b;
+}
