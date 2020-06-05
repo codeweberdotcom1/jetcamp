@@ -92,3 +92,10 @@ ul.contact-details li span {
 #footer .widget.contact-info .contact-details strong, #footer .follow-us .widget-title {
     color: #ff671b;
 }
+
+#footer .contact-info-block .contact-details a {
+    color: #2869b2;
+}
+#footer .contact-info-block .contact-details a:hover {
+    color: #fff;
+}
