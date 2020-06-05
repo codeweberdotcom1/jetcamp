@@ -27,3 +27,8 @@ td.product-add-to-cart {
     display: flex;
     justify-content: flex-end;
 }
+
+ul.products .category-list {
+    display: flex;
+    justify-content: center;
+}
