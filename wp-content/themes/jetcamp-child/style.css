@@ -81,7 +81,10 @@ li.product-outimage_aq_onimage .add-links .quickview {
 .product-image .stock {
     color: #fff;
 
+/** ----------Plugins------------  **/
 
+
+/** ----------Footer------------  **/
 
 .porto-sicon-box.footer-logo.style_1.default-icon {
     justify-content: flex-start!important;
@@ -104,4 +107,10 @@ ul.contact-details li span {
 }
 #footer .contact-info-block .contact-details a:hover {
     color: #fff;
+}
+
+
+.porto-sicon-box.footer-logo.style_1.default-icon {
+    display: flex;
+    justify-content: flex-start;
 }
