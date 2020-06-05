@@ -119,5 +119,8 @@ a.share-whatsapp {
     border: 0!important;
 }
 .widget>div>ul li, .widget>ul li {
-    line-height: 1.2;
+    line-height: 1;
+}
+#footer a {
+    font-size: 14px;
 }
