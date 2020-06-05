@@ -32,3 +32,8 @@ ul.products .category-list {
     display: flex;
     justify-content: center;
 }
+
+a.viewcart-style-2.button.product_type_simple.add_to_cart_read_more {
+    font-size: 10px;
+    line-height: 34px;
+}
