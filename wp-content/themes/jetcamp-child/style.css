@@ -85,6 +85,6 @@ li.product-outimage_aq_onimage .add-links .quickview {
     width: 150px;
 }
 
-ul.contact-details li span {
+ul.contact-details li span, ul.contact-details li span a {
     color: #fff!important;
 }
