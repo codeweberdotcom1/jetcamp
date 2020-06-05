@@ -19,3 +19,7 @@ Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, 
 .yith-wcwl-wishlistexistsbrowse {
     font-family: Open Sans,sans-serif;
 }
+
+#mini-cart .buttons a, .quantity .qty, .single_add_to_cart_button, .shop_table.wishlist_table .add_to_cart.button, .woocommerce table.wishlist_table .add_to_cart.button, ul.products li.product-col .add_to_cart_button, ul.products li.product-col .add_to_cart_read_more, ul.products li.product-col .quickview, .single-product .product-summary-wrap .price, .single-product .yith-wcwl-add-to-wishlist {
+    font-family: Open Sans,sans-serif;
+}
