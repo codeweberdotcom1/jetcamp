@@ -50,14 +50,11 @@ h2.sub-title.thumb-info-inner {
     font-size: 13px;
 }
 
-/** Porto body **/
+
 html #topcontrol {
     background: #404040;
 }
-/** ----------Header------------  **/
 
-
-/** ----------Woocommerce------------  **/
 
 span.product-stock.in-stock span {
     color: green!important;
@@ -74,17 +71,13 @@ span.product-stock.available-on-backorder span {
 li.product-outimage_aq_onimage .add-links .quickview {
     background: #281E47;
 }
-/*Out of stock*/
+
 .product-image .stock {
     background: rgb(42, 106, 178);
 }
 .product-image .stock {
     color: #fff;
 
-/** ----------Plugins------------  **/
-
-
-/** ----------Footer------------  **/
 
 .porto-sicon-box.footer-logo.style_1.default-icon {
     justify-content: flex-start!important;
@@ -109,8 +102,3 @@ ul.contact-details li span {
     color: #fff;
 }
 
-
-.porto-sicon-box.footer-logo.style_1.default-icon {
-    display: flex;
-    justify-content: flex-start!important;
-}
