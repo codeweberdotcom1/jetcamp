@@ -72,6 +72,12 @@ span.product-stock.available-on-backorder span {
 li.product-outimage_aq_onimage .add-links .quickview {
     background: #281E47;
 }
+/*Out of stock*/
+.product-image .stock {
+    background: rgb(42, 106, 178);
+}
+.product-image .stock {
+    color: #fff;
 
 /** ----------Plugins------------  **/
 
