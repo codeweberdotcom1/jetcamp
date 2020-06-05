@@ -182,3 +182,9 @@ function change_attachement_image_attributes( $attr, $attachment ) {
 add_filter( 'wp_get_attachment_image_attributes', 'change_attachement_image_attributes', 20, 2 );
 
 
+function jetcamp_child_setup() {
+    $path = get_stylesheet_directory().'/languages';
+    load_child_theme_textdomain( 'jetcamp-child', $path );
+}
+add_action( 'after_setup_theme', 'jetcamp__child_setup' );
+
