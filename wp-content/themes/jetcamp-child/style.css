@@ -84,3 +84,7 @@ li.product-outimage_aq_onimage .add-links .quickview {
 .footer-logo .porto-sicon-header {
     width: 150px;
 }
+
+ul.contact-details li span {
+    color: #fff!important;
+}
