@@ -127,3 +127,9 @@ a.share-whatsapp {
 html #topcontrol {
     background: #2b6ab2;
 }
+.porto-sicon-box.address-new.style_1.default-icon.flex-wrap {
+    display: flex;
+}
+.porto-sicon-box.address-new.style_1.default-icon.flex-wrap .porto-sicon-description {
+    width: auto;
+}
