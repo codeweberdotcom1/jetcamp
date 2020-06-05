@@ -50,8 +50,10 @@ h2.sub-title.thumb-info-inner {
     font-size: 13px;
 }
 
-
-
+/** Porto body **/
+html #topcontrol {
+    background: #404040;
+}
 /** ----------Header------------  **/
 
 
