@@ -51,3 +51,14 @@ h2.sub-title.thumb-info-inner {
     line-height: 15px;
     font-size: 13px;
 }
+span.product-stock.in-stock span {
+    color: green!important;
+}
+
+span.product-stock.out-of-stock span {
+    color: #ea0000;
+}
+
+span.product-stock.available-on-backorder span {
+    color: #fe681d;
+}
