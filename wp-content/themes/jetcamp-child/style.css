@@ -78,5 +78,5 @@ li.product-outimage_aq_onimage .add-links .quickview {
 
 /** ----------Footer------------  **/
 .porto-sicon-box.footer-logo.style_1.default-icon {
-    justify-content: flex-start;
+    justify-content: flex-start!important;
 }
