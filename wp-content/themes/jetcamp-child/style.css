@@ -131,7 +131,7 @@ html #topcontrol {
     display: flex;
 }
 .porto-sicon-box.address-new.style_1.default-icon.flex-wrap .porto-sicon-description {
-    width: auto;
+    width: 80%;
 }
 .porto-sicon-description strong {
     color: #281e47!important;
