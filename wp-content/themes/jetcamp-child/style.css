@@ -118,3 +118,6 @@ a.share-whatsapp {
 #footer .widget > div > ul, #footer .widget > ul, #footer .widget > div > ul li, #footer .widget > ul li, #footer .post-item-small {
     border-color: 0!important;
 }
+.widget>div>ul li, .widget>ul li {
+    line-height: 1.2;
+}
