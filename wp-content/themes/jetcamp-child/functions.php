@@ -188,3 +188,13 @@ function jetcamp_child_setup() {
 }
 add_action( 'after_setup_theme', 'jetcamp_child_setup' );
 
+
+/** woocommerce: change position of add-to-cart on single product **/
+    remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
+    add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 9 );
+    
+    
+    remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+     add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 41 );
+    
+   
