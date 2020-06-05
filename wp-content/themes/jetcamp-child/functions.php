@@ -186,5 +186,5 @@ function jetcamp_child_setup() {
     $path = get_stylesheet_directory().'/languages';
     load_child_theme_textdomain( 'jetcamp-child', $path );
 }
-add_action( 'after_setup_theme', 'jetcamp__child_setup' );
+add_action( 'after_setup_theme', 'jetcamp_child_setup' );
 
