@@ -89,6 +89,6 @@ ul.contact-details li span {
     color: #fff!important;
 }
 
-.widget.contact-info .contact-info-block .contact-details span, #footer .contact-info-block .contact-details a {
-    color: #f6641d;
+#footer .widget.contact-info .contact-details strong, #footer .follow-us .widget-title {
+    color: #ff671b;
 }
