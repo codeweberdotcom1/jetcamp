@@ -48,6 +48,7 @@ a.viewcart-style-2.button.product_type_simple.add_to_cart_read_more {
 .single_add_to_cart_button {
     background: #281E47;
 }
+
 h2.sub-title.thumb-info-inner {
     line-height: 15px;
     font-size: 13px;
@@ -83,7 +84,7 @@ li.product-outimage_aq_onimage .add-links .quickview {
 }
 
 .porto-sicon-box.footer-logo.style_1.default-icon {
-    justify-content: flex-start!important;
+    justify-content: flex-start;
 }
 
 .porto-sicon-box.footer-logo.style_1.default-icon .porto-sicon-header {
@@ -101,6 +102,7 @@ ul.contact-details li span {
 #footer .contact-info-block .contact-details a {
     color: #2869b2;
 }
+
 #footer .contact-info-block .contact-details a:hover {
     color: #fff;
 }
