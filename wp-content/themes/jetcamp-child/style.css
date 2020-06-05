@@ -86,11 +86,11 @@ li.product-outimage_aq_onimage .add-links .quickview {
 
 /** ----------Footer------------  **/
 
-.footer-logo {
+.porto-sicon-box.footer-logo.style_1.default-icon {
     justify-content: flex-start!important;
 }
 
-.footer-logo .porto-sicon-header {
+.porto-sicon-box.footer-logo.style_1.default-icon .porto-sicon-header {
     width: 150px;
 }
 
