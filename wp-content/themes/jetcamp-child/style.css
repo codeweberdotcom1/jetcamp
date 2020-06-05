@@ -12,6 +12,9 @@ Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, 
 */
 
 /*************** ADD YOUR CUSTOM CSS HERE  ***************/
+.porto-sicon-box.footer-logo.style_1.default-icon {
+    justify-content: start;
+}
 #header .main-menu > li.menu-item > a {
     font-weight: 600;
     padding: 10px 0 5px 0!important;
@@ -107,7 +110,5 @@ ul.contact-details li span {
     color: #fff;
 }
 
-.porto-sicon-box.footer-logo.style_1.default-icon {
-    justify-content: start;
-}
+
 
