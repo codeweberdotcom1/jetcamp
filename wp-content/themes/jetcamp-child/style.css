@@ -47,3 +47,7 @@ li.product-outimage_aq_onimage .add-links .quickview {
 .single_add_to_cart_button {
     background: #281E47;
 }
+h2.sub-title.thumb-info-inner {
+    line-height: 15px;
+    font-size: 13px;
+}
