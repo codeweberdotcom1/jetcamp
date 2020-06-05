@@ -115,3 +115,6 @@ a.share-whatsapp {
 #footer h3 {
     color: #ff671b!important;
 }
+#footer .widget > div > ul, #footer .widget > ul, #footer .widget > div > ul li, #footer .widget > ul li, #footer .post-item-small {
+    border-color: 0!important;
+}
