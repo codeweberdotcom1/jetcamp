@@ -217,15 +217,11 @@ if ( isset ( $wp_query->query_vars['product_cat'] ) && $wp_query->is_main_query(
 add_filter('pre_get_posts', 'exclude_product_cat_children');
 
 
-
+/**
+ * Custom Head Code
+ */
 function my_custom_js() {
-    echo "<script>
-	window.fwSettings={
-	'widget_id':77000001708
-	};
-	!function(){if('function'!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
-</script>
-<script type='text/javascript' src='https://euc-widget.freshworks.com/widgets/77000001708.js' async defer></script>";
+    echo "<script></script>";
 }
 // Add hook for admin <head></head>
 add_action( 'admin_head', 'my_custom_js' );
