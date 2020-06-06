@@ -143,3 +143,7 @@ ul.products li.product-category .thumb-info-wrapper:after {
 #header .searchform-popup .search-toggle i {
     color: #281e47;
 }
+
+#header:not(.sticky-header) .header-main .mega-menu:after {
+    top: 0;
+}
