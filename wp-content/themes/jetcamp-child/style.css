@@ -140,3 +140,6 @@ ul.products li.product-category .thumb-info-wrapper:after {
     background: rgba(40, 30, 71, 0.64);
 
 }
+#header .searchform-popup .search-toggle i {
+    color: #281e47;
+}

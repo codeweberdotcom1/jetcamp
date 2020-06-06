@@ -227,5 +227,8 @@ function my_custom_js() {
 add_action( 'admin_head', 'my_custom_js' );
 // Add hook for front-end <head></head>
 add_action( 'wp_head', 'my_custom_js' );
+
+
+
    
 
