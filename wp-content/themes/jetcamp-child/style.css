@@ -154,3 +154,10 @@ i.yith-wcwl-icon.fa.fa-heart-o {
     background: #f5f5f5;
     padding-top: 30px;
 }
+.wpf_items_wrapper.wpf_layout_vertical {
+    border: 1px solid #5555552b;
+    padding: 20px;
+}
+.wpf_items_wrapper.wpf_layout_vertical * {
+    color: #000;
+}
