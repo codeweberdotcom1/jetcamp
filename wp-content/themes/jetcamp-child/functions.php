@@ -216,3 +216,4 @@ if ( isset ( $wp_query->query_vars['product_cat'] ) && $wp_query->is_main_query(
 }  
 add_filter('pre_get_posts', 'exclude_product_cat_children');
    
+   
