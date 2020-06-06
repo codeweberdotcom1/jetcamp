@@ -150,3 +150,7 @@ ul.products li.product-category .thumb-info-wrapper:after {
 i.yith-wcwl-icon.fa.fa-heart-o {
     display: none;
 }
+.products.related {
+    background: #f5f5f5;
+    padding-top: 30px;
+}
