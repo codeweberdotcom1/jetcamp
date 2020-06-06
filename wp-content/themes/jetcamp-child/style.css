@@ -14,7 +14,7 @@ Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, 
 /*************** ADD YOUR CUSTOM CSS HERE  ***************/
 #header .main-menu > li.menu-item > a {
     font-weight: 600;
-    padding: 10px 0 5px 0!important;
+    padding: 10px 0 1px 0!important;
 }
 
 #header.sticky-header .main-menu > li.menu-item > a, #header.sticky-header .menu-custom-block span, #header.sticky-header .menu-custom-block a, #header.sticky-header .main-menu-wrap .main-menu .menu-custom-block a, #header.sticky-header .main-menu-wrap .main-menu .menu-custom-block span {
