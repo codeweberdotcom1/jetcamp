@@ -158,8 +158,6 @@ add_action( 'edited_product_cat', 'save_taxonomy_custom_meta', 10, 2 );
 add_action( 'create_product_cat', 'save_taxonomy_custom_meta', 10, 2 );
 
 
-
-
 /**
  * Create Alt and Title Image
  */
@@ -197,4 +195,24 @@ add_action( 'after_setup_theme', 'jetcamp_child_setup' );
     remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
      add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 41 );
     
+
+
+
+/**
+ * Hide subcategory product Woo
+ */
+    function exclude_product_cat_children($wp_query) {
+if ( isset ( $wp_query->query_vars['product_cat'] ) && $wp_query->is_main_query()) {
+    $wp_query->set('tax_query', array( 
+                                    array (
+                                        'taxonomy' => 'product_cat',
+                                        'field' => 'slug',
+                                        'terms' => $wp_query->query_vars['product_cat'],
+                                        'include_children' => false
+                                    ) 
+                                 )
+    );
+  }
+}  
+add_filter('pre_get_posts', 'exclude_product_cat_children');
    
