@@ -175,10 +175,12 @@ input[type="reset"] {
 .wpf_reset_btn:before {
     color: #fff;
     font-weight: 600;
+        left: 10px;
     border: 1px solid #fff;
 }
 .wpf_reset_btn:after {
     color: #fff;
     font-weight: 600;
+        left: 10px;
     border: 1px solid #fff;
 }
