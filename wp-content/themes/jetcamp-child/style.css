@@ -147,3 +147,6 @@ ul.products li.product-category .thumb-info-wrapper:after {
 #header:not(.sticky-header) .header-main .mega-menu:after {
     top: 0;
 }
+i.yith-wcwl-icon.fa.fa-heart-o {
+    display: none;
+}
