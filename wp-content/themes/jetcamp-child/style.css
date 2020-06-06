@@ -136,3 +136,7 @@ html #topcontrol {
 .porto-sicon-description strong {
     color: #281e47!important;
 }
+ul.products li.product-category .thumb-info-wrapper:after {
+    background: rgba(40, 30, 71, 0.64);
+
+}
