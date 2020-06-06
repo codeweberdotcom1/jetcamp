@@ -172,3 +172,13 @@ input[type="reset"] {
     font-weight: 600!important;
     color: #fff!important;
 }
+.wpf_reset_btn:before {
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+}
+.wpf_reset_btn:after {
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+}
