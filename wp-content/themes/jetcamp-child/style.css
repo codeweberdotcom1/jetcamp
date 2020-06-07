@@ -239,3 +239,14 @@ button#place_order:hover {
     background: #ff671b!important;
     border-color: #ff671b!important;
 }
+
+.cart-actions button {
+	background: #281e47!important;
+    padding: 0.8rem 1.9rem;
+    border-color: #281e47!important;
+    color: #fff!important;
+}
+.cart-actions button:hover {
+    background: #ff671b!important;
+    border-color: #ff671b!important;
+}
