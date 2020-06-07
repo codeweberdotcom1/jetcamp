@@ -276,7 +276,7 @@ margin-bottom: 3px;
 }
 }
 @media (min-width: 1024px) {
-.cart-v2 .proceed-to-checkout {
+.cart-v2 h1 a {
     display: none!important;
 }
 }
