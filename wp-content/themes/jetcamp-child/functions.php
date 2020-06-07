@@ -262,6 +262,3 @@ $translated = str_ireplace('Детали', 'Дополнительная инф�
 return $translated;
 }
 
-#header .main-menu > li.menu-item > a {
-    font-weight: 700;
-}

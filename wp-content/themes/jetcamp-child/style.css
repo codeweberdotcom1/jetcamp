@@ -188,3 +188,6 @@ input[type="reset"] {
     font-weight: 400;
     color: #281e47;
 }
+#header .main-menu > li.menu-item > a {
+    font-weight: 700;
+}
