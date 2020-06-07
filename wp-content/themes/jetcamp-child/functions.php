@@ -246,4 +246,3 @@ function custom_variation_prefixes($price, $product)
  
     return $price;
 }
-   
