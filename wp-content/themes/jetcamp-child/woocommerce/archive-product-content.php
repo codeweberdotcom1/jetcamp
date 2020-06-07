@@ -27,9 +27,7 @@ if ( $porto_settings['category-ajax'] ) {
 	do_action( 'woocommerce_before_main_content' );
 ?>
 
-
 	<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
-
 
 <?php
 	/**
