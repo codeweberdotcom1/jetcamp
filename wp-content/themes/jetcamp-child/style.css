@@ -280,3 +280,8 @@ margin-bottom: 3px;
     display: none!important;
 }
 }
+
+tbody * {
+    border: 1px solid #efefef;
+    text-align: center;
+}
