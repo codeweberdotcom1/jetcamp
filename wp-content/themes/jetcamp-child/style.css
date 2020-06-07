@@ -247,3 +247,11 @@ button#place_order:hover {
     background: #ff671b!important;
     border-color: #ff671b!important;
 }
+
+@media (max-height: 414px) {
+.cart-actions a, .cart-actions button {
+width: 100%;
+margin-bottom: 3px;
+}
+
+}
