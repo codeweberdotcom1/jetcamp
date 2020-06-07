@@ -208,6 +208,8 @@ button#place_order {
     background: #281e47;
     padding: 0.8rem 1.9rem;
     border-color: #281e47;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 button#place_order:hover {
     background: #ff671b;
@@ -217,6 +219,8 @@ button#place_order:hover {
 	background: #281e47;
     padding: 0.8rem 1.9rem;
     border-color: #281e47;
+    font-weight: 600;
+    text-transform: uppercase;
 
 }
 .wc-proceed-to-checkout a:hover {
@@ -229,6 +233,8 @@ button#place_order:hover {
     padding: 0.8rem 1.9rem;
     border-color: #281e47!important;
     color: #fff!important;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .cart-actions a:hover {
@@ -242,6 +248,8 @@ button#place_order:hover {
     border-color: #281e47!important;
     color: #fff!important;
     opacity: 1!important;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .cart-actions button:hover {
     background: #ff671b!important;
@@ -253,5 +261,4 @@ button#place_order:hover {
 width: 100%;
 margin-bottom: 3px;
 }
-
 }
