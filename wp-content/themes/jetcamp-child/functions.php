@@ -247,4 +247,7 @@ function custom_variation_prefixes($price, $product)
     return $price;
 }
    
-
+.lead {
+    font-weight: 400;
+    color: #281e47;
+}
