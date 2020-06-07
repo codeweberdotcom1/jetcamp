@@ -197,3 +197,6 @@ input[type="reset"] {
 p {
     color: #281e47;
 }
+span.woocommerce-Price-currencySymbol {
+    padding-right: 5px;
+}
