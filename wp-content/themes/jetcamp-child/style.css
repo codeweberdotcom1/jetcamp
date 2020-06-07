@@ -191,3 +191,6 @@ input[type="reset"] {
 #header .main-menu > li.menu-item > a {
     font-weight: 700;
 }
+#header .header-contact i {
+    color: #281e47;
+}
