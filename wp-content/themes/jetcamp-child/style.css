@@ -184,3 +184,7 @@ input[type="reset"] {
         left: 10px;
     border: 1px solid #fff;
 }
+.lead {
+    font-weight: 400;
+    color: #281e47;
+}
