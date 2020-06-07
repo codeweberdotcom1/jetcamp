@@ -261,3 +261,7 @@ $translated = str_ireplace('RELATED PRODUCTS', 'Похожие товары', $t
 $translated = str_ireplace('Детали', 'Дополнительная информация', $translated);
 return $translated;
 }
+
+#header .main-menu > li.menu-item > a {
+    font-weight: 700;
+}
