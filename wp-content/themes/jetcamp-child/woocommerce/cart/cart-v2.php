@@ -10,7 +10,15 @@ $porto_woo_version = porto_get_woo_version_number();
 <div class="cart-v2">
 	<h1 class="heading-primary m-b-md font-weight-normal">
 		<span><?php esc_html_e( 'Shopping Cart', 'porto' ); ?></span>
-		<a href="<?php echo esc_url( wc_get_checkout_url() ); ?>" class="btn btn-primary proceed-to-checkout"><?php esc_html_e( 'Proceed to Checkout', 'porto' ); ?></a>
+		
+<?php
+if ( wp_is_mobile() ) {
+    '<a href="' . echo esc_url( wc_get_checkout_url() ); . '"' . ' class="btn btn-primary proceed-to-checkout">' . esc_html_e( 'Proceed to Checkout', 'porto' );  . '</a>'
+}
+?>
+
+
+
 	</h1>
 	<div class="row">
 		<div class="col-lg-8 col-xl-9">
