@@ -121,7 +121,7 @@ if ( $category_icon ) {
 			<?php if ( 'category-pos-outside' != $view_type ) : ?>
 				<span class="thumb-info-wrap">
 					<span class="thumb-info-title">
-						<h2 class="sub-title thumb-info-inner"><?php echo esc_html( $category->name ); ?></h2>
+						<h3 class="sub-title thumb-info-inner"><?php echo esc_html( $category->name ); ?></h3>
 						<?php
 						if ( $category->count > 0 ) :
 							$count_html = apply_filters( 'woocommerce_subcategory_count_html', ' <mark class="count">' . ( (int) $category->count ) . '</mark>', $category );
