@@ -217,14 +217,13 @@ button#place_order:hover {
     background: #ff671b;
     border-color: #ff671b;
 }
-.cart-actions a {
-
+.wc-proceed-to-checkout {
 	background: #281e47;
     padding: 0.8rem 1.9rem;
     border-color: #281e47;
 
 }
-.cart-actions a:hover {
+.wc-proceed-to-checkout:hover {
     background: #ff671b;
     border-color: #ff671b;
 }
