@@ -229,6 +229,22 @@ add_action( 'admin_head', 'my_custom_js' );
 add_action( 'wp_head', 'my_custom_js' );
 
 
-
+function custom_variation_prefixes($price, $product)
+{
+    $price = '';
+ 
+    if (!$product->min_variation_price || $product->min_variation_price !== $product->max_variation_price)
+    {
+ $price .= '<span class="from">' . _x('Self-Study:', 'min_price', 'woocommerce') . ' </span>';
+ $price .= woocommerce_price($product->get_price());
+    }
+    if ($product->max_variation_price !== $product->min_variation_price)
+    {
+ $price .= '<span class="to"> ' . _x('Tutored:', 'max_price', 'woocommerce') . ' </span>';
+ $price .= woocommerce_price($product->max_variation_price);
+    }
+ 
+    return $price;
+}
    
 
