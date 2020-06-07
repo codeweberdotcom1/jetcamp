@@ -208,3 +208,12 @@ form.checkout.woocommerce-checkout * h3 {
     line-height: 44px;
     color: #281e47 !important;
 }
+button#place_order {
+    background: #281e47;
+    padding: 0.8rem 1.9rem;
+    border-color: #281e47;
+}
+button#place_order:hover {
+    background: #ff671b;
+    border-color: #ff671b;
+}
