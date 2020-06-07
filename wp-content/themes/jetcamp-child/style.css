@@ -232,4 +232,10 @@ button#place_order:hover {
 	background: #281e47!important;
     padding: 0.8rem 1.9rem;
     border-color: #281e47;
+    color: #fff;
+}
+
+.cart-actions a:hover {
+    background: #ff671b;
+    border-color: #ff671b;
 }
