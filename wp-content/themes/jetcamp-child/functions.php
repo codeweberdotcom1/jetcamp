@@ -262,15 +262,15 @@ return $translated;
 }
 
 
-function new_projects_fields( $fields ) {
-	$fields['location'] = array(
-	    'name' 			=> __( 'Location', 'projects' ),
-	    'description' 	=> __( 'Enter a location for this project.', 'projects' ),
-	    'type' 			=> 'text',
-	    'default' 		=> '',
-	    'section' 		=> 'info'
-	);
+// The code for displaying WooCommerce Product Custom Fields
+add_action( 'woocommerce_product_options_general_product_data', 'woocommerce_product_custom_fields' ); 
+// Following code Saves  WooCommerce Product Custom Fields
+add_action( 'woocommerce_process_product_meta', 'woocommerce_product_custom_fields_save' );
 
-	return $fields;
+function woocommerce_product_custom_fields () {
+global $woocommerce, $post;
+echo '<div class=" product_custom_field ">';
+// This function has the logic of creating custom field
+//  This function includes input text field, Text area and number field
+echo '</div>';
 }
-add_filter( 'projects_custom_fields', 'new_projects_fields' );
