@@ -245,6 +245,7 @@ button#place_order:hover {
     padding: 0.8rem 1.9rem;
     border-color: #281e47!important;
     color: #fff!important;
+    opacity: 1;
 }
 .cart-actions button:hover {
     background: #ff671b!important;
