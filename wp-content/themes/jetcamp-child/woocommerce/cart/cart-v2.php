@@ -13,7 +13,7 @@ $porto_woo_version = porto_get_woo_version_number();
 		
 <?php
 if ( wp_is_mobile() ) {
-    '<a href="' . esc_url( wc_get_checkout_url() ); . '"class="btn btn-primary proceed-to-checkout">' . esc_html_e( . 'Proceed to Checkout' , 'porto' .  );  . '</a>';
+    '<a href="' . esc_url( wc_get_checkout_url() ); . '"class="btn btn-primary proceed-to-checkout">' . esc_html_e( . 'Proceed to Checkout' . , . 'porto' .  );  . '</a>';
 }
 ?>
 
