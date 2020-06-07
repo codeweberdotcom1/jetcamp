@@ -203,3 +203,8 @@ span.woocommerce-Price-currencySymbol {
 form.checkout.woocommerce-checkout * h3 {
     font-size: 18px;
 }
+.cart-v2 .heading-primary {
+    font-size: 36px;
+    line-height: 44px;
+    color: #281e47 !important;
+}
