@@ -275,3 +275,8 @@ width: 100%;
 margin-bottom: 3px;
 }
 }
+@media (min-width: 1024px) {
+.cart-v2 .proceed-to-checkout {
+    display: none;
+}
+}
