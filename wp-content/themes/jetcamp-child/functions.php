@@ -262,15 +262,43 @@ return $translated;
 }
 
 
-// The code for displaying WooCommerce Product Custom Fields
-add_action( 'woocommerce_product_options_general_product_data', 'woocommerce_product_custom_fields' ); 
-// Following code Saves  WooCommerce Product Custom Fields
-add_action( 'woocommerce_process_product_meta', 'woocommerce_product_custom_fields_save' );
-
-function woocommerce_product_custom_fields () {
-global $woocommerce, $post;
-echo '<div class=" product_custom_field ">';
-// This function has the logic of creating custom field
-//  This function includes input text field, Text area and number field
-echo '</div>';
+// Display Fields
+add_action('woocommerce_product_options_general_product_data', 'woocommerce_product_custom_fields');
+// Save Fields
+add_action('woocommerce_process_product_meta', 'woocommerce_product_custom_fields_save');
+function woocommerce_product_custom_fields()
+{
+    global $woocommerce, $post;
+    echo '<div class="product_custom_field">';
+    // Custom Product Text Field
+    woocommerce_wp_text_input(
+        array(
+            'id' => '_custom_product_text_field',
+            'placeholder' => 'Custom Product Text Field',
+            'label' => __('Custom Product Text Field', 'woocommerce'),
+            'desc_tip' => 'true'
+        )
+    );
+    //Custom Product Number Field
+    woocommerce_wp_text_input(
+        array(
+            'id' => '_custom_product_number_field',
+            'placeholder' => 'Custom Product Number Field',
+            'label' => __('Custom Product Number Field', 'woocommerce'),
+            'type' => 'number',
+            'custom_attributes' => array(
+                'step' => 'any',
+                'min' => '0'
+            )
+        )
+    );
+    //Custom Product  Textarea
+    woocommerce_wp_textarea_input(
+        array(
+            'id' => '_custom_product_textarea',
+            'placeholder' => 'Custom Product Textarea',
+            'label' => __('Custom Product Textarea', 'woocommerce')
+        )
+    );
+    echo '</div>';
 }
