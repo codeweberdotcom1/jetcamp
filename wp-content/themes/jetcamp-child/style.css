@@ -200,3 +200,6 @@ p {
 span.woocommerce-Price-currencySymbol {
     padding-right: 5px;
 }
+form.checkout.woocommerce-checkout * h3 {
+    font-size: 18px;
+}
