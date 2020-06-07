@@ -254,7 +254,7 @@ function translate_text($translated) {
 $translated = str_ireplace('Product name', 'Наименование', $translated);
 $translated = str_ireplace('Информация о заказе', 'Ваш заказ', $translated);
 $translated = str_ireplace('No products added to the wishlist', 'В закладки товаров не добавлено', $translated);
-$translated = str_ireplace('Подытог', 'Итого', $translated);
+$translated = str_ireplace('Подытог', 'Всего', $translated);
 $translated = str_ireplace('Apply Coupon', 'Применить купон', $translated);
 $translated = str_ireplace('Консоль', 'Личный кабинет', $translated);
 $translated = str_ireplace('RELATED PRODUCTS', 'Похожие товары', $translated);
