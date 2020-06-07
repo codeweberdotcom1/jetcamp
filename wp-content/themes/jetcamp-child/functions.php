@@ -261,3 +261,16 @@ $translated = str_ireplace('Детали', 'Дополнительная инф�
 return $translated;
 }
 
+
+function new_products_fields( $fields ) {
+	$fields['location'] = array(
+	    'name' 			=> __( 'Location', 'product' ),
+	    'description' 	=> __( 'Enter a location for this product.', 'products' ),
+	    'type' 			=> 'text',
+	    'default' 		=> '',
+	    'section' 		=> 'info'
+	);
+
+	return $fields;
+}
+add_filter( 'products_custom_fields', 'new_prducts_fields' );
