@@ -262,10 +262,10 @@ return $translated;
 }
 
 
-function new_products_fields( $fields ) {
+function new_projects_fields( $fields ) {
 	$fields['location'] = array(
-	    'name' 			=> __( 'Location', 'product' ),
-	    'description' 	=> __( 'Enter a location for this product.', 'products' ),
+	    'name' 			=> __( 'Location', 'projects' ),
+	    'description' 	=> __( 'Enter a location for this project.', 'projects' ),
 	    'type' 			=> 'text',
 	    'default' 		=> '',
 	    'section' 		=> 'info'
@@ -273,4 +273,4 @@ function new_products_fields( $fields ) {
 
 	return $fields;
 }
-add_filter( 'products_custom_fields', 'new_prducts_fields' );
+add_filter( 'projects_custom_fields', 'new_projects_fields' );
