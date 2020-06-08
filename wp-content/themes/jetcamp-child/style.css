@@ -277,7 +277,8 @@ margin-bottom: 3px;
 }
 @media (min-width: 1024px) {
 .cart-v2 h1 a {
-    display: none!important;
+    display: none
+
 }
 }
 
@@ -295,6 +296,7 @@ li.aws_result_item.aws_search_more a:hover {
     background: #281e47;
 }
 body.woocommerce-page.archive .sidebar-content {
-    display: flex;
-    flex-direction: column;
+    display: flex!important;
+    flex-direction: column!important;
 }
+
