@@ -258,6 +258,8 @@ $translated = str_ireplace('Apply Coupon', 'Применить купон', $tra
 $translated = str_ireplace('Консоль', 'Личный кабинет', $translated);
 $translated = str_ireplace('RELATED PRODUCTS', 'Похожие товары', $translated);
 $translated = str_ireplace('Детали', 'Дополнительная информация', $translated);
+$translated = str_ireplace('Unit price', 'Цена', $translated);
+
 return $translated;
 }
 
