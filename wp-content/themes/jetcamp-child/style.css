@@ -310,3 +310,8 @@ span.aws_result_title {
 .aws-container {
     margin-bottom: 20px;
 }
+.filter--style-premmerce .filter__title {
+    font-size: 12px;
+    line-height: 15px;
+    color: #fe6c23;
+}
