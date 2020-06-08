@@ -261,3 +261,13 @@ $translated = str_ireplace('Детали', 'Дополнительная инф�
 return $translated;
 }
 
+function text_text( $post ) {
+	?>
+	<div style="margin-top: 10px;padding: 15px;color: #fff;background: #673AB7;clear: both;">
+		Здесь сработал хук <b>edit_form_top</b>.
+	</div>
+	<?php
+}
+
+
+add_action( 'porto_before_sidebar', 'text_text' );
