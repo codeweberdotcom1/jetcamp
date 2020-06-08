@@ -295,4 +295,6 @@ li.aws_result_item.aws_search_more a {
 li.aws_result_item.aws_search_more a:hover {
     background: #281e47;
 }
-
+form.aws-search-form.aws-show-clear {
+    margin-bottom: 5px;
+}
