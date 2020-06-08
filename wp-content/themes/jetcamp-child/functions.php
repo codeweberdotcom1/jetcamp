@@ -266,6 +266,6 @@ return $translated;
 
 function my_content_filter(){
  //this is where we will implement our filter
- return '555';
+ echo '555';
 }
 add_filter( 'porto_before_sidebar', 'my_content_filter' );
