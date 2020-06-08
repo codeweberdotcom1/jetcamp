@@ -295,8 +295,4 @@ li.aws_result_item.aws_search_more a {
 li.aws_result_item.aws_search_more a:hover {
     background: #281e47;
 }
-body.woocommerce-page.archive .sidebar-content {
-    display: flex!important;
-    flex-direction: column!important;
-}
 
