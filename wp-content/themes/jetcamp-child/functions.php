@@ -270,9 +270,10 @@ function my_content_filter(){
 }
 add_filter( 'porto_before_sidebar', 'my_content_filter' );
 
+
 function my_content_filter1(){
  //this is where we will implement our filter
- echo '<h3>fff</h3>';
+ 
 }
 add_filter( 'porto_before_sidebar', 'my_content_filter1' );
 
