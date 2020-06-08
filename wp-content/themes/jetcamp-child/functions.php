@@ -261,13 +261,11 @@ $translated = str_ireplace('Детали', 'Дополнительная инф�
 return $translated;
 }
 
-function text_text( $post ) {
-	?>
-	<div style="margin-top: 10px;padding: 15px;color: #fff;background: #673AB7;clear: both;">
-		Здесь сработал хук <b>edit_form_top</b>.
-	</div>
-	<?php
+
+
+
+function my_content_filter(){
+ //this is where we will implement our filter
+ return '555';
 }
-
-
-add_action( 'porto_before_sidebar', 'text_text' );
+add_filter( 'porto_before_sidebar', 'my_content_filter' );
