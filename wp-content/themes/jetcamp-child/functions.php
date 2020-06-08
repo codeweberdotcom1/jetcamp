@@ -272,7 +272,7 @@ add_filter( 'porto_before_sidebar', 'my_content_filter' );
 
 function my_content_filter(){
  //this is where we will implement our filter
- echo '<h3>fff</h3>'
+ echo '<h3>fff</h3>';
 }
 add_filter( 'porto_before_sidebar', 'my_content_filter' );
 
