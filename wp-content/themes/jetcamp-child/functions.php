@@ -264,8 +264,16 @@ return $translated;
 
 
 
-function my_content_filter(){
- //this is where we will implement our filter
- echo '555';
-}
+
+
+
+function my_content_filter($content){
+  $before = '<p>This content will go before WordPress posts</p>';
+  $after = '<p>This content will go after WordPress posts</p>'; 
+  //modify the incoming content 
+  $content = $before . $content . $after;
+
+  return $content; 
+} 
+
 add_filter( 'porto_before_sidebar', 'my_content_filter' );
