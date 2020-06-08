@@ -307,3 +307,6 @@ span.aws_result_title {
     font-size: 15px;
     color: #fe661a;
 }
+.aws-container {
+    margin-bottom: 20px;
+}
