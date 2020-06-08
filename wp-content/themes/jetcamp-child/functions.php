@@ -264,16 +264,8 @@ return $translated;
 
 
 
-
-
-
-function my_content_filter($content){
-  $before = '<p>This content will go before WordPress posts</p>';
-  $after = '<p>This content will go after WordPress posts</p>'; 
-  //modify the incoming content 
-  $content = $before . $content . $after;
-
-  return $content; 
-} 
-
+function my_content_filter(){
+ //this is where we will implement our filter
+ <?php if ( function_exists( 'aws_get_search_form' ) ) { aws_get_search_form(); } ?>;
+}
 add_filter( 'porto_before_sidebar', 'my_content_filter' );
