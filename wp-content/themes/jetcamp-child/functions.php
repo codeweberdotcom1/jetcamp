@@ -266,6 +266,6 @@ return $translated;
 
 function my_content_filter(){
  //this is where we will implement our filter
- echo '555';
+ echo do_shortcode('[aws_search_form]');
 }
 add_filter( 'porto_before_sidebar', 'my_content_filter' );
