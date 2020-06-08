@@ -298,3 +298,6 @@ li.aws_result_item.aws_search_more a:hover {
 form.aws-search-form.aws-show-clear {
     margin-bottom: 5px;
 }
+span.aws_result_title {
+    line-height: 18px;
+}
