@@ -1973,13 +1973,7 @@ function porto_search_form_content( $is_mobile = false ) {
 		$show_cats = ( ! isset( $porto_settings['search-cats-mobile'] ) || $porto_settings['search-cats-mobile'] );
 	}
 	?>
-	<form action="<?php echo esc_url( home_url() ); ?>/" method="get"
-		class="searchform<?php echo isset( $porto_settings['search-type'] ) && ( 'post' === $porto_settings['search-type'] || 'product' === $porto_settings['search-type'] || 'portfolio' === $porto_settings['search-type'] ) && $show_cats ? ' searchform-cats' : ''; ?>">
-		
-		
-		
 	
-	</form>
 	<?php
 	return apply_filters( 'porto_search_form_content', ob_get_clean() );
 }
