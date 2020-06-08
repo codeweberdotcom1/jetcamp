@@ -266,8 +266,9 @@ return $translated;
 
 function my_search_sidebar(){
  //this is where we will implement our filter
-	echo '<h3>Поиск</h3>';
- echo do_shortcode('[aws_search_form]');
+	echo '<div class="aws_title_search">Поиск</div>';
+    echo do_shortcode('[aws_search_form]');
+    echo '<div class="category_title_sidebar">Поиск</div>';
 }
 add_filter( 'porto_before_sidebar', 'my_search_sidebar', 30 );
 
