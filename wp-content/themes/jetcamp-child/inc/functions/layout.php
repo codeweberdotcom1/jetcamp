@@ -1936,47 +1936,10 @@ function porto_mobile_menu( $secondary_menu = false ) {
 	return apply_filters( 'porto_mobile_menu', $output );
 }
 
-function porto_search_form() {
-	global $porto_settings;
 
-	if ( ! $porto_settings['show-searchform'] ) {
-		return '';
-	}
-	$result  = '';
-	$result .= '<div class="searchform-popup' . ( isset( $porto_settings['search-layout'] ) && ( 'simple' == $porto_settings['search-layout'] || 'large' == $porto_settings['search-layout'] || 'reveal' == $porto_settings['search-layout'] || 'overlay' == $porto_settings['search-layout'] ) ? ' search-popup' : '' ) . '">';
-	$result .= '<a class="search-toggle"><i class="fas fa-search"></i><span class="search-text">' . esc_html__( 'Search', 'porto' ) . '</span></a>';
-	$result .= porto_search_form_content();
-	$result .= '</div>';
-	return apply_filters( 'porto_search_form', $result );
-}
 
-function porto_search_form_content( $is_mobile = false ) {
-	global $porto_settings;
 
-	if ( ! $porto_settings['show-searchform'] ) {
-		return '';
-	}
-
-	ob_start();
-	if ( isset( $porto_settings['search-type'] ) && 'product' === $porto_settings['search-type'] && class_exists( 'WooCommerce' ) && defined( 'YITH_WCAS' ) ) {
-		$wc_get_template = function_exists( 'wc_get_template' ) ? 'wc_get_template' : 'woocommerce_get_template';
-		$wc_get_template( 'yith-woocommerce-ajax-search.php', array(), '', YITH_WCAS_DIR . 'templates/' );
-		return ob_get_clean();
-	}
-	if ( isset( $porto_settings['search-placeholder'] ) && $porto_settings['search-placeholder'] ) {
-		$placeholder_text = strip_tags( $porto_settings['search-placeholder'] );
-	} else {
-		$placeholder_text = __( 'Search&hellip;', 'porto' );
-	}
-	$show_cats = isset( $porto_settings['search-cats'] ) && $porto_settings['search-cats'];
-	if ( $show_cats && wp_is_mobile() ) {
-		$show_cats = ( ! isset( $porto_settings['search-cats-mobile'] ) || $porto_settings['search-cats-mobile'] );
-	}
-	?>
 	
-	<?php
-	return apply_filters( 'porto_search_form_content', ob_get_clean() );
-}
 
 function porto_header_socials() {
 	global $porto_settings;
