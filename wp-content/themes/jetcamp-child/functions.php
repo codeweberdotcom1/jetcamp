@@ -266,6 +266,6 @@ return $translated;
 
 function my_content_filter(){
  //this is where we will implement our filter
- return ( function_exists( 'aws_get_search_form' ) ) { aws_get_search_form(); } ;
+ return ( function_exists( 'aws_get_search_form' ) ) { aws_get_search_form(); } 
 }
 add_filter( 'porto_before_sidebar', 'my_content_filter' );
