@@ -301,7 +301,7 @@ form.aws-search-form.aws-show-clear {
 span.aws_result_title {
     line-height: 18px;
 }
-.aws_title_search {
+.aws_title_search, .category_title_sidebar {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;
