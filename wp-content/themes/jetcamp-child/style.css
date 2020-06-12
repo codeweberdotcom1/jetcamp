@@ -315,3 +315,9 @@ span.aws_result_title {
     line-height: 15px;
     color: #fe6c23;
 }
+justify {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
