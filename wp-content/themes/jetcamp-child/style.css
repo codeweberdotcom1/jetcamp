@@ -346,6 +346,11 @@ span.aws_result_title {
     width: 100%;
     flex-wrap: wrap;
 }
+
+.left_column, .right_column {
+    width: 33.3%;
+    flex-wrap: wrap;
+}
 .dialog {
     max-width: 1100px;
 }
@@ -356,6 +361,7 @@ span.aws_result_title {
     vertical-align: central;
     flex-wrap: wrap;
 }
+
 .justify2 {
     display: flex;
     justify-content: left;
@@ -364,6 +370,7 @@ span.aws_result_title {
     justify-content: space-between;
     height: auto;
 }
+
 .text-center1 {
     text-align: center;
     padding: 10px;
