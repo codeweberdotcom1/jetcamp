@@ -346,3 +346,6 @@ span.aws_result_title {
     width: 100%;
     flex-wrap: wrap;
 }
+.dialog {
+    max-width: 1100px;
+}
