@@ -321,3 +321,8 @@ justify {
     flex-direction: row;
     flex-wrap: wrap;
 }
+@media only screen and (min-width: 1200px)
+.left_column, .right_column {
+    width: 33.3%;
+    flex-wrap: wrap;
+}
