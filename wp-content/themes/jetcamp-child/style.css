@@ -1,0 +1,386 @@
+/*
+Theme Name: jetcamp child
+Theme URI: https://www.portotheme.com/wordpress/porto
+Author: P-THEMES
+Author URI: https://www.portotheme.com/
+Description: Porto Responsive WordPress + eCommerce Theme.
+Version: 1.1
+Template: porto
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+*/
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+#header .main-menu > li.menu-item > a {
+    font-weight: 600;
+    padding: 1px 0 1px 0!important;
+}
+
+#header.sticky-header .main-menu > li.menu-item > a, #header.sticky-header .menu-custom-block span, #header.sticky-header .menu-custom-block a, #header.sticky-header .main-menu-wrap .main-menu .menu-custom-block a, #header.sticky-header .main-menu-wrap .main-menu .menu-custom-block span {
+    padding-bottom: 1px!important;
+}	
+
+.yith-wcwl-wishlistexistsbrowse {
+    font-family: Open Sans,sans-serif;
+}
+
+#mini-cart .buttons a, .quantity .qty, .single_add_to_cart_button, .shop_table.wishlist_table .add_to_cart.button, .woocommerce table.wishlist_table .add_to_cart.button, ul.products li.product-col .add_to_cart_button, ul.products li.product-col .add_to_cart_read_more, ul.products li.product-col .quickview, .single-product .product-summary-wrap .price, .single-product .yith-wcwl-add-to-wishlist {
+    font-family: Open Sans,sans-serif;
+}
+td.product-add-to-cart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.products .category-list {
+    display: flex;
+    justify-content: center;
+}
+
+a.viewcart-style-2.button.product_type_simple.add_to_cart_read_more {
+    font-size: 10px;
+    line-height: 34px;
+}
+
+.single_add_to_cart_button {
+    background: #281E47;
+}
+
+h2.sub-title.thumb-info-inner {
+    line-height: 15px;
+    font-size: 13px;
+}
+
+
+html #topcontrol {
+    background: #404040;
+}
+
+
+span.product-stock.in-stock span {
+    color: green!important;
+}
+
+span.product-stock.out-of-stock span {
+    color: #ea0000;
+}
+
+span.product-stock.available-on-backorder span {
+    color: #fe681d;
+}
+
+li.product-outimage_aq_onimage .add-links .quickview {
+    background: #281E47;
+}
+
+.product-image .stock {
+    background: rgb(42, 106, 178);
+}
+.product-image .stock {
+    color: #fff;
+}
+
+.porto-sicon-box.footer-logo.style_1.default-icon {
+    justify-content: flex-start;
+}
+
+.porto-sicon-box.footer-logo.style_1.default-icon .porto-sicon-header {
+    width: 150px;
+}
+
+ul.contact-details li span {
+    color: #fff!important;
+}
+
+#footer .widget.contact-info .contact-details strong, #footer .follow-us .widget-title {
+    color: #ff671b;
+}
+
+#footer .contact-info-block .contact-details a {
+    color: #2869b2;
+}
+
+#footer .contact-info-block .contact-details a:hover {
+    color: #fff;
+}
+
+a.share-whatsapp {
+    display: inline-block!important;
+    visibility: visible!important;
+}
+#footer .widgettitle, #footer .widget-title {
+    font-size: 20px;
+}
+#footer h3 {
+    color: #ff671b!important;
+}
+#footer .widget > div > ul, #footer .widget > ul, #footer .widget > div > ul li, #footer .widget > ul li, #footer .post-item-small {
+    border: 0!important;
+}
+.widget>div>ul li, .widget>ul li {
+    line-height: 1;
+}
+#footer a {
+    font-size: 14px;
+}
+html #topcontrol {
+    background: #2b6ab2;
+}
+.porto-sicon-box.address-new.style_1.default-icon.flex-wrap {
+    display: flex;
+}
+.porto-sicon-box.address-new.style_1.default-icon.flex-wrap .porto-sicon-description {
+    width: 80%;
+}
+.porto-sicon-description strong {
+    color: #281e47!important;
+}
+ul.products li.product-category .thumb-info-wrapper:after {
+    background: rgba(40, 30, 71, 0.64);
+
+}
+#header .searchform-popup .search-toggle i {
+    color: #281e47;
+}
+
+#header:not(.sticky-header) .header-main .mega-menu:after {
+    top: 0;
+}
+i.yith-wcwl-icon.fa.fa-heart-o {
+    display: none;
+}
+.products.related {
+    background: #f5f5f5;
+    padding-top: 30px;
+}
+.wpf_items_wrapper.wpf_layout_vertical {
+    border: 1px solid #5555552b;
+    padding: 20px;
+}
+.wpf_items_wrapper.wpf_layout_vertical * {
+    color: #000;
+}
+.wpf_reset_btn {
+    background: #ff671b;
+    font-size: 15px;
+    font-weight: 600!important;
+    text-align: center;
+    padding: 5px;
+}
+input[type="reset"] {
+    font-weight: 600!important;
+    color: #fff!important;
+}
+.wpf_reset_btn:before {
+    color: #fff;
+    font-weight: 600;
+        left: 10px;
+    border: 1px solid #fff;
+}
+.wpf_reset_btn:after {
+    color: #fff;
+    font-weight: 600;
+        left: 10px;
+    border: 1px solid #fff;
+}
+.lead {
+    font-weight: 400;
+    color: #281e47;
+}
+#header .main-menu > li.menu-item > a {
+    font-weight: 700;
+}
+#header .header-contact i {
+    color: #281e47;
+}
+p {
+    color: #281e47;
+}
+span.woocommerce-Price-currencySymbol {
+    padding-right: 5px;
+}
+form.checkout.woocommerce-checkout * h3 {
+    font-size: 18px;
+}
+
+button#place_order {
+    background: #281e47;
+    padding: 0.8rem 1.9rem;
+    border-color: #281e47;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+button#place_order:hover {
+    background: #ff671b;
+    border-color: #ff671b;
+}
+.wc-proceed-to-checkout a {
+	background: #281e47;
+    padding: 0.8rem 1.9rem;
+    border-color: #281e47;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.wc-proceed-to-checkout a:hover {
+    background: #ff671b;
+    border-color: #ff671b;
+}
+
+.cart-actions a {
+	background: #ff671b!important;
+    padding: 0.8rem 1.9rem;
+    border-color: #ff671b!important;
+    color: #fff!important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.cart-actions a:hover {
+    background: #281e47!important;
+    border-color: #281e47!important;
+}
+
+.cart-actions button {
+	background: #ff671b!important;
+    padding: 0.8rem 1.9rem;
+    border-color: #ff671b!important;
+    color: #fff!important;
+    opacity: 1!important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cart-actions button:hover {
+    background: #281e47!important;
+    border-color: #281e47!important;
+}
+
+.cart-v2 h1 a {
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #281e47!important;
+    padding: 0.8rem 1.9rem;
+    border-color: #281e47!important;
+    color: #fff!important;
+}
+.cart-v2 h1 a:hover {
+   background: #ff671b!important;
+    border-color: #ff671b!important;
+}
+
+@media (max-width: 414px) {
+.cart-actions a, .cart-actions button {
+width: 100%;
+margin-bottom: 3px;
+}
+}
+@media (min-width: 1024px) {
+.cart-v2 h1 a {
+    display: none
+
+}
+}
+
+
+li.aws_result_item.aws_search_more a {
+    background: #fe681d;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+li.aws_result_item.aws_search_more a:hover {
+    background: #281e47;
+}
+form.aws-search-form.aws-show-clear {
+    margin-bottom: 5px;
+}
+span.aws_result_title {
+    line-height: 18px;
+}
+.aws_title_search, .category_title_sidebar {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fe661a;
+}
+.aws-container {
+    margin-bottom: 20px;
+}
+.filter--style-premmerce .filter__title {
+    font-size: 12px;
+    line-height: 15px;
+    color: #fe6c23;
+}
+.justify {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 1200px)
+.left_column, .right_column {
+    width: 33.3%;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 992px)
+.left_column, .right_column {
+    width: 33.3%;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 768px)
+.left_column, .right_column {
+    width: 33.3%;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 480px)
+.left_column, .right_column {
+    width: 100%;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 320px)
+.left_column, .right_column {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.left_column, .right_column {
+    width: 33.3%;
+    flex-wrap: wrap;
+}
+.dialog {
+    max-width: 1100px;
+}
+.justify3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    vertical-align: central;
+    flex-wrap: wrap;
+}
+
+.justify2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+}
+
+.text-center1 {
+    text-align: center;
+    padding: 10px;
+}
+#header .mobile-toggle {
+    color: #000000;
+}
+.yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before, .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:hover:before, .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:hover:before {
+    color: #cc0000!important;
+}
+.yith-wcwl-wishlistexistsbrowse a:hover {
+    background: #fff!important;
+}
+.yith-wcwl-wishlistexistsbrowse span a:hover {
+    background: #fff!important;
+}
