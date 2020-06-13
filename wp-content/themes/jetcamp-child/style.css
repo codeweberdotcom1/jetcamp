@@ -282,10 +282,7 @@ margin-bottom: 3px;
 }
 }
 
-tbody * {
-    border: 1px solid #efefef;
-    text-align: center;
-}
+
 li.aws_result_item.aws_search_more a {
     background: #fe681d;
     color: #fff;
