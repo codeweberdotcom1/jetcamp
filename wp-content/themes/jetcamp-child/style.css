@@ -378,3 +378,6 @@ span.aws_result_title {
 .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before, .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before, .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:hover:before, .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:hover:before {
     color: #cc0000!important;
 }
+.yith-wcwl-wishlistexistsbrowse a:hover {
+    background: #fff!important;
+}
