@@ -11,6 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $woocommerce_loop, $porto_woocommerce_loop, $porto_settings, $porto_layout, $porto_products_cols_lg, $porto_products_cols_md, $porto_products_cols_xs, $porto_products_cols_ls;
 
+
 $extra_class = '';
 if ( isset( $porto_woocommerce_loop['view'] ) && 'creative' == $porto_woocommerce_loop['view'] && ! empty( $porto_woocommerce_loop['grid_layout'] ) && isset( $porto_woocommerce_loop['grid_layout'][ $woocommerce_loop['cat_loop'] % count( $porto_woocommerce_loop['grid_layout'] ) ] ) ) {
 	$grid_layout  = $porto_woocommerce_loop['grid_layout'][ $woocommerce_loop['cat_loop'] % count( $porto_woocommerce_loop['grid_layout'] ) ];

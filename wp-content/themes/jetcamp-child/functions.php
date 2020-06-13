@@ -76,6 +76,7 @@ function msc_product_loop_end() {
 
 
 
+
 /**WC Отключение оплаты при оформлении**/
 add_filter( 'woocommerce_cart_needs_payment', '__return_false' );
 
