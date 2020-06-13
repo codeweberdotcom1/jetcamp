@@ -375,3 +375,6 @@ span.aws_result_title {
     text-align: center;
     padding: 10px;
 }
+#header .mobile-toggle {
+    color: #000000;
+}
